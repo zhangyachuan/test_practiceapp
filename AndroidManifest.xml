@@ -14,11 +14,29 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hello.world.MainActivity"></activity>
+        <activity android:name="com.hello.world.MainActivity">
+            <intent-filter>
+				<action android:name="com.example.activitytest.ACTION_START" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="com.intent.category.MY_TEST"/>
+			</intent-filter>
+        </activity>
+        <activity android:name="com.hello.world.ActivityResultActivity">
+            <intent-filter>
+                <action android:name="com.test.activyresult.ACTION_START"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hello.world.MainListView">
+            <intent-filter>
+                <action android:name="com.test.activyresult.MainListView"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
     </application>
 
 </manifest>
