@@ -1,6 +1,8 @@
-package com.hello.world;
+package com.hello.world.activity;
 
 import java.util.Date;
+
+import com.hello.world.activity.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -59,6 +59,20 @@
 			    android:text="@string/cancel"
 			    android:background="#3399cc"
 			    android:layout_marginLeft="30dp"/>
+			<Button 
+			    android:id="@+id/talk"
+			   	android:layout_width="wrap_content"
+                android:layout_height="30dp"
+			    android:text="talk"
+			    android:background="#3399cc"
+			    android:layout_marginLeft="30dp"/>
+			<Button 
+			    android:id="@+id/fragment"
+			   	android:layout_width="wrap_content"
+                android:layout_height="30dp"
+			    android:text="fragment"
+			    android:background="#3399cc"
+			    android:layout_marginLeft="30dp"/>
 			</LinearLayout>
     </TableLayout>
    	

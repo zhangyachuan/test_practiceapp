@@ -1,6 +1,6 @@
 package com.hello.extend.view;
 
-import com.hello.world.R;
+import com.hello.world.activity.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;

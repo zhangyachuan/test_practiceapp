@@ -1,4 +1,6 @@
-package com.hello.world;
+package com.hello.world.activity;
+
+import com.hello.world.activity.R;
 
 import android.app.Activity;
 import android.content.Intent;

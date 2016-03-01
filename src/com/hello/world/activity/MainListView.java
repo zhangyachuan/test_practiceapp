@@ -1,4 +1,6 @@
-package com.hello.world;
+package com.hello.world.activity;
+
+import com.hello.world.activity.R;
 
 import android.os.Bundle;
 import android.view.Window;

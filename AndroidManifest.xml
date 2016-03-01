@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hello.world"
+    package="com.hello.world.activity"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -10,30 +10,44 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name=".HelloworldActivity"
+            android:name=".LoginActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hello.world.MainActivity">
+        <activity android:name="com.hello.world.activity.MainActivity">
             <intent-filter>
 				<action android:name="com.example.activitytest.ACTION_START" />
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="com.intent.category.MY_TEST"/>
 			</intent-filter>
         </activity>
-        <activity android:name="com.hello.world.ActivityResultActivity">
+        <activity android:name="com.hello.world.activity.ActivityResultActivity">
             <intent-filter>
                 <action android:name="com.test.activyresult.ACTION_START"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hello.world.MainListView">
+        <activity android:name=".activity.MainListView">
             <intent-filter>
                 <action android:name="com.test.activyresult.MainListView"/>
                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hello.world.activity.TalkActivity">
+            <intent-filter>
+                <action android:name="com.test.activyresult.TalkActivity"/>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.intent.category.mytest.TalkActivity" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hello.fragment.MainFragMentActivity">
+            <intent-filter>
+                <action android:name="com.test.activyresult.MainFragMentActivity"/>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.intent.category.mytest.MainFragMentActivity" />
             </intent-filter>
         </activity>
         

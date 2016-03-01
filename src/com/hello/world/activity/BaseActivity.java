@@ -1,4 +1,4 @@
-package com.hello.world;
+package com.hello.world.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
